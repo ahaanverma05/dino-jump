@@ -1,0 +1,54 @@
+#game {
+    border: 3px solid #333;
+    height: 200px;
+    width: 600px;
+    margin: auto;
+}
+#dino {
+    background-image: url("https://lh3.googleusercontent.com/proxy/DtiT930VgkpgEdn54hJHHgUnJnrmx2T7StNRcBZwrUW8zGUZmdHbesIwsE1QyLBwlAKZ-BUoPS58i5GTxOE9dz4hGt5PZjk");
+    background-size: 50px 50px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 150px;
+}
+.jumpclass {
+    animation: jump 0.35s linear;
+}
+@keyframes jump {
+    from {
+        top: 150px;
+    }
+    30% {
+        top: 130px;
+    }
+    50% {
+        top: 80px;
+    }
+    80% {
+        top: 130px;
+    }
+    100% {
+        top: 150px;
+    }
+}
+#cactus {
+    width: 20px;
+    height: 30px;
+    position: relative;
+    top: 120px;
+    left: 580px;
+    background-image: url("https://www.tynker.com/projects/images/e20df433a4316a7c308b11da2fcdb32d432598f4/cacti---cacti2.png");
+    background-size: 20px 30px;
+}
+.blablabla {
+    animation: block 1000ms linear infinite;
+}
+@keyframes block {
+    from {
+        left: 580px;
+    }
+    to {
+        left: -30px;
+    }
+}
