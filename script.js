@@ -1,4 +1,5 @@
 function gamestarted() {
+var score = 0;
 var dino = document.getElementById("dino");
 var cactus = document.getElementById("cactus");
 cactus.classList.add("blablabla");
@@ -15,9 +16,6 @@ var isAlive = setInterval(function() {
     let cactusLeft = parseInt(window.getComputedStyle(cactus).getPropertyValue("left"));
     if(cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 140){ 
     document.getElementById("gameovertext").innerHTML="Game Over.";
-    var errewhuewi = document.createElement("h1");
-    document.body.appendChild(errewhuewi);
-    errewhuewi.innerHTML="Reset";
     }
 }, 10)
 document.addEventListener("keydown", (e)=> {
