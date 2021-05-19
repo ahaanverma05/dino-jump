@@ -8,7 +8,7 @@ body {
     margin: auto;
 }
 #dino {
-    background-image: url("https://lh3.googleusercontent.com/proxy/DtiT930VgkpgEdn54hJHHgUnJnrmx2T7StNRcBZwrUW8zGUZmdHbesIwsE1QyLBwlAKZ-BUoPS58i5GTxOE9dz4hGt5PZjk");
+    background-image: url("https://www.kindpng.com/picc/m/108-1085324_chrome-dinosaur-png-t-rex-google-png-transparent.png");
     background-size: 50px 50px;
     width: 50px;
     height: 50px;
@@ -56,6 +56,14 @@ body {
     }
 }
 #gameovertext {
-    font-family: sans-serif;
+    font-family: 'VT323', monospace;
     position: absolute;
+    top: 50px;
+    margin-left: 43%;
+    font-size: 40px;
+}
+#jumpbtn {
+    position: relative;
+    width: 100px;
+    height: 50px;
 }
